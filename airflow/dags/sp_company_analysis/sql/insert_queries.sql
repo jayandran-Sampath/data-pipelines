@@ -1,0 +1,11 @@
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Communication Services', 22, '2025-01-28');
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Consumer Discretionary', 50, '2025-01-28');
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Consumer Staples', 38, '2025-01-28');
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Energy', 22, '2025-01-28');
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Financials', 73, '2025-01-28');
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Health Care', 61, '2025-01-28');
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Industrials', 78, '2025-01-28');
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Information Technology', 69, '2025-01-28');
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Materials', 28, '2025-01-28');
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Real Estate', 31, '2025-01-28');
+INSERT INTO sectors (name, size, dateOfEntry) VALUES ('Utilities', 31, '2025-01-28');
