@@ -23,5 +23,10 @@ export AIRFLOW__CORE__DAGS_FOLDER=$PWD/airflow/dags
 
 restart your airflow instance
 
+Create two variables in airflow which will point to your local folder path
+
+SP_COMPANY_ANALYSIS_PATH 
+
+DOMAIN_ANALYSIS_PATH
 
 
