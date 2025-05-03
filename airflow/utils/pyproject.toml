@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "airflow_custom_utils"
+version = "0.0.1"
+authors = [
+  { name="Jayandran Sampath", email="jaidg2012@gmail.com" },
+]
+description = "Utility project contains of processors"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pyspark",
+  "findspark",
+]
+license = "MIT"

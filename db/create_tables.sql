@@ -12,3 +12,11 @@ CREATE TABLE sectors (
   size bigint,
   dateOfEntry DATE
 );
+
+CREATE TABLE countries_gdp (
+  id SERIAL PRIMARY KEY,
+  countryName VARCHAR(300),
+  gdp double precision,
+  growthRate double precision,
+  year bigint
+);

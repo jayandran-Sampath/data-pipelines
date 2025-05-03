@@ -8,13 +8,23 @@ eg **Airflow** -> Pipelines created using airflow tool are saved in airflow fold
 
 **Pre-requisite :** 
 
-Start postgres db using docker compose command
+
+1. Start postgres db using docker compose command
 
 ```
 docker-compose -f ./docker-compose-postgress.yml up
 ```
 
 This will spin up docker container of postgres with required tables
+
+2. Build Utils Package 
+
+```
+cd airflow/utils
+pip install .
+```
+
+This will be build util methods used within pipeline
 
 
 **Airflow :**
