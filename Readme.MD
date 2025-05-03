@@ -61,7 +61,7 @@ Build local utility project
 
 ```
 
-cd utils
+cd airflow/utils
 pip install .
 
 ```
