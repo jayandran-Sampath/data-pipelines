@@ -43,6 +43,28 @@ SP_COMPANY_ANALYSIS_PATH
 
 DOMAIN_ANALYSIS_PATH
 
+COUNTRIES_DATA_PATH -> path where you wanted countries gdp temp data to be stored
+ 
+JDBC_POSTGRES_URL -> local postgress jdbc url (ie : jdbc:postgresql://localhost:5432/postgres)
+
+DB_USERNAME -> postgress db username
+
+DB_PASSWORD -> postgress db password
+
+POSTGRESS_JAR_PATH -> download postgress jdbc jar & provide the path in the variable 
+
+
 ```
+
+Build local utility project
+
+
+```
+
+cd utils
+pip install .
+
+```
+
 
 
